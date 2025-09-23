@@ -8,11 +8,11 @@ while True:
     if rsp == 'N':
         break
 
-for i, v in enumerate(valores):
+for v in valores: # pecorre a lista 
     if v % 2 == 0:
-        listaPar.append(v)
+        listaPar.append(v) # adiciona por
     elif v % 2 == 1:
-        listaImpar.append(v)
+        listaImpar.append(v) # adiciona ímpar
 
 print('-=' * 30)
 print(f'A lista completa é {valores}')
