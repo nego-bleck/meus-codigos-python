@@ -15,3 +15,5 @@ for  c in range(0, 5):
 print('-=' * 30)
 print(f'Os valore digitados em ordem foram: {lista}')
 
+
+
