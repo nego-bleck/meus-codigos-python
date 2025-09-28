@@ -1,3 +1,4 @@
+from pickle import FALSE
 
 num = [[], []] # lista composra
 valor = 0
